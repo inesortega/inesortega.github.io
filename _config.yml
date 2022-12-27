@@ -85,9 +85,9 @@ author:
   bio              : "Technical Manager of Data Analytics & AI | Security and Privacy Department (GRADIANT) \n PhD Student | University of Vigo."
   location         : "Vigo (Spain)"
   employer         :  "GRADIANT"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=24Q2ayQAAAAJ&hl=en"
-  email            :  "iortega@gradiant.org | ines.ortega@uvigo.es"
+  email            :  "iortega@gradiant.org"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
