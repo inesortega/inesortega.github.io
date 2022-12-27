@@ -11,30 +11,24 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, Carlos III University of Madrid, 2017
+* M.S. in Cybersecurity, Carlos III University of Madrid, 2018
+* Ph.D in Telecommunications and Information Technology, University of Vigo, 2023 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* April 2022- Present: Technical Manager of Data Analytics and AI
+  * Security and Privacy Department | GRADIANT
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* August 2021 - April 2022: Senior Researcher - Engineer
+  * Security and Privacy Department | GRADIANT
+
+* March 2020 - August 2021: Researcher - Engineer
+  * Security and Privacy Department | GRADIANT
+
+* October 2018 - March 2020: Software Engineer
+  * Microsoft Canada Development Centre | Core Data Engineering group
+
 
 Publications
 ======
@@ -48,12 +42,15 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
+
+Skills
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Large experience programming on Python, R, C, C++, Java
+* Knowledge of Git, Docker, Jenkins, CI/CD methodologies, Software design patterns, ELK stack, bash shell scripting
+* SQL databases, data processing and management
+*  
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
