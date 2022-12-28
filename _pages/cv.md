@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
 * B.S. in Computer Science, Carlos III University of Madrid, 2017
@@ -18,21 +16,27 @@ Education
 Work experience
 ======
 * April 2022- Present: Technical Manager of Data Analytics and AI
-  * Security and Privacy Department | GRADIANT
+  * Security and Privacy Department - GRADIANT
 
 * August 2021 - April 2022: Senior Researcher - Engineer
-  * Security and Privacy Department | GRADIANT
+  * Security and Privacy Department - GRADIANT
 
 * March 2020 - August 2021: Researcher - Engineer
-  * Security and Privacy Department | GRADIANT
+  * Security and Privacy Department - GRADIANT
 
 * October 2018 - March 2020: Software Engineer
-  * Microsoft Canada Development Centre | Core Data Engineering group
+  * Microsoft Canada Development Centre - Core Data Engineering group
 
 
 Publications
 ======
   <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+R&D Projects
+======
+  <ul>{% for post in site.projects %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
@@ -46,11 +50,7 @@ Talks
 Skills
 ======
 * Large experience programming on Python, R, C, C++, Java
+* Project management (Task and WP leader, project management). 
+* Funding acquisition. Experience preparing H2020 and Horizon Europe proposals.
 * Knowledge of Git, Docker, Jenkins, CI/CD methodologies, Software design patterns, ELK stack, bash shell scripting
 * SQL databases, data processing and management
-*  
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
