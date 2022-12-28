@@ -18,5 +18,3 @@ Before joining GRADIANT I worked for about 2 years at the Microsoft Canada Devel
 
 
 My complete CV is available [here](https://inesortega.github.io/files/cv.pdf). 
-
-{% raw %}{% seo %}{% endraw %}
