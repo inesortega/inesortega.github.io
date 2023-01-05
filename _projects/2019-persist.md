@@ -5,6 +5,7 @@ type: "Horizon 2020"
 permalink: /projects/2019-persist
 venue: "SC1-DTH-01-2019 - Big data and Artificial Intelligence for monitoring health status and quality of life after the cancer treatment"
 date: 2019-11-05
+end_date: 2023-02-28
 url: https://cordis.europa.eu/project/id/875406/es
 ---
 
