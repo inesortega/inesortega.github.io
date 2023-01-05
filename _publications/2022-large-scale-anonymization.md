@@ -1,6 +1,6 @@
 ---
 title: "Large Scale Data Anonymisation for GDPR Compliance"
-collection: book-chapter
+collection: publications
 permalink: /publication/2022-large-scale-anonymization
 excerpt: 'General Data Protection Regulation (GDPR) has been in place since May 2018 to give EU citizens more control over their personal data, applying principles like security and privacy by design. One of the most powerful tools to allow data processing while being compliant with data protection regulations is anonymisation, a procedure that consists of transforming data in such a way that makes no longer possible the re-identification of the data subjects. This chapter describes how anonymisation can be performed at a large scale, addressing common challenges to become GDPR compliant.'
 date: 2022-01-01
