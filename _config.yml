@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  "google" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -175,13 +175,10 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -217,13 +214,20 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
   # _talks
   - scope:
       path: ""
       type: talks
     values:
       layout: talk
+      author_profile: true
+      share: true
+    # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
       author_profile: true
       share: true
 
@@ -247,6 +251,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
