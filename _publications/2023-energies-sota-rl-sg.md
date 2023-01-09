@@ -3,6 +3,7 @@ title: "A Review of Denial of Service Attack and Mitigation in the Smart Grid Us
 collection: publication
 permalink: /publication/2023-energies-sota-rl-sg
 date: 2023-01-05
+type: "journal"
 venue: 'Energies (MDPI)'
 paperurl: 'https://www.mdpi.com/1996-1073/16/2/635'
 citation: 'Ortega-Fernandez, Ines, and Francesco Liberati. 2023. "A Review of Denial of Service Attack and Mitigation in the Smart Grid Using Reinforcement Learning" Energies 16, no. 2: 635. https://www.mdpi.com/1996-1073/16/2/635'

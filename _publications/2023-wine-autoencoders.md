@@ -4,6 +4,7 @@ collection: publication
 permalink: /publication/2023-wine-autoencoders
 date: 2023-01-05
 venue: 'Wireless Networks (Springer)'
+type: "journal"
 paperurl: 'https://link.springer.com/article/10.1007/s11276-022-03214-3'
 citation: 'Ortega-Fernandez, I., Sestelo, M., Burguillo, J.C. et al. Network intrusion detection system for DDoS attacks in ICS using deep autoencoders. Wireless Netw (2023). https://doi.org/10.1007/s11276-022-03214-3'
 ---
