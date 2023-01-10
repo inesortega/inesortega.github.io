@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-You can also find my articles on my <a href="https://scholar.google.com/citations?user=24Q2ayQAAAAJ&hl=en"> Google Scholar</a> profile.
+You can also find my articles on my <a href="https://scholar.google.com/citations?hl=en&user=pz0SDFAAAAAJ&view_op=list_works&sortby=pubdate"> Google Scholar</a> profile.
 
 ### Journal Articles
 
