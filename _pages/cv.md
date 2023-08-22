@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+My complete CV in PDF is available [here](https://inesortega.github.io/files/cv.pdf). 
+
 Education
 ======
 * B.S. in Computer Science, Carlos III University of Madrid, 2017
@@ -15,18 +17,13 @@ Education
 
 Work experience
 ======
-* April 2022- Present: Technical Manager of Data Analytics and AI
-  * Security and Privacy Department - GRADIANT
+* April 2022- Present: Technical Manager of Data Analytics and AI - Security and Privacy Department - GRADIANT
 
-* August 2021 - April 2022: Senior Researcher - Engineer
-  * Security and Privacy Department - GRADIANT
+* August 2021 - April 2022: Senior Researcher - Engineer - Security and Privacy Department - GRADIANT
 
-* March 2020 - August 2021: Researcher - Engineer
-  * Security and Privacy Department - GRADIANT
+* March 2020 - August 2021: Researcher - Engineer - Security and Privacy Department - GRADIANT
 
-* October 2018 - March 2020: Software Engineer
-  * Microsoft Canada Development Centre - Core Data Engineering group
-
+* October 2018 - March 2020: Software Engineer - Microsoft Canada Development Centre 
 
 Publications
 ======
