@@ -1,7 +1,7 @@
 ---
 title: "Hexanonymity: a scalable geo-positioned data clustering algorithm for anonymisation purposes"
 collection: publication
-permalink: /publication/2023-jnic2023-lstm-ueba
+permalink: /publication/2023-hexanonymity-paper
 date: 2023-07-31
 venue: '2023 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)'
 type: "conference"
