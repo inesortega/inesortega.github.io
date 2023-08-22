@@ -1,7 +1,7 @@
 ---
 title: "Detectando ciberataques y comportamientos anómalos mediante UEBA - Un caso de uso real en Abanca"
 collection: software
-type: "Software"
+type: "software"
 permalink: /software/2023-hexanonymity
 repository: https://github.com/Gradiant/Hexanonymity
 ---

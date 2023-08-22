@@ -1,7 +1,7 @@
 ---
 title: "neuralGAM: Interpretable Neural Network Based on Generalized Additive Models"
 collection: software
-type: "Software"
+type: "software"
 permalink: /software/2023-neuralGAM
 repository: https://github.com/inesortega/NeuralGAM
 ---
