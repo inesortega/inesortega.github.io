@@ -7,7 +7,13 @@ main:
     url: /projects/    
 
   - title: "Talks"
-    url: /talks/    
-    
+    url: /talks/   
+
+  - title: "Software"
+    url: /software/
+  
+  - title: "NeuralGAM"
+    url: https://inesortega.github.io/neuralGAM/
+
   - title: "CV"
     url: /cv/
