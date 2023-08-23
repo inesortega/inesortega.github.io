@@ -10,6 +10,8 @@ author_profile: true
 <ul>{% for post in site.projects reversed %}
   {% if post.type == "he" %}
     {% include archive-single-project-summary.html %}
+  {% elseif post.type == "h2020" %}
+    {% include archive-single-project-summary.html %}
   {% endif %}
 {% endfor %}</ul>
 
