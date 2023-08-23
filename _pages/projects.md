@@ -7,7 +7,7 @@ author_profile: true
 
 ### International Projects
 
-<ul>{% for post in site.publications reversed %}
+<ul>{% for post in site.projects reversed %}
   {% if post.type == "he" %}
     {% include archive-single-project-summary.html %}
   {% endif %}
@@ -15,7 +15,7 @@ author_profile: true
 
 ### National & Regional projects
 
-<ul>{% for post in site.publications reversed %}
+<ul>{% for post in site.projects reversed %}
   {% if post.type == "national" %}
     {% include archive-single-project-summary.html %}
   {% endif %}
