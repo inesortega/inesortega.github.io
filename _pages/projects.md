@@ -5,7 +5,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-### International Projects
+## International Projects
 
 <ul>{% for post in site.projects reversed %}
   {% if post.type == "he" %}
@@ -15,7 +15,7 @@ author_profile: true
   {% endif %}
 {% endfor %}</ul>
 
-### National & Regional projects
+## National & Regional projects
 
 <ul>{% for post in site.projects reversed %}
   {% if post.type == "national" %}

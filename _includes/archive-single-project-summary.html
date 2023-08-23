@@ -29,14 +29,13 @@
       {% endif %}
     </h3>
     <p>Call: <i>{{ post.venue }}</i></p>
-    <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{"Start date:" }}</strong>
+    <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{"Dates:" }}</strong>
       <time datetime="{{ post.date | default: " 1900-01-01" | date_to_xmlschema }}">{{ post.date | default:
         "1900-01-01"
+        | date: "%B %d, %Y" }}</time> - <time datetime="{{ post.date | default: " 1900-01-01" | date_to_xmlschema }}">{{
+        post.end_date | default:
+        "1900-01-01"
         | date: "%B %d, %Y" }}</time>
-    <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ "End date:" }}</strong>
-      <time datetime="{{ post.date | default: " 1900-01-01" | date_to_xmlschema }}">{{ post.end_date | default:
-        "1900-01-01" | date: "%B %d, %Y" }}</time>
-    </p>
     </p>
   </article>
 </div>
