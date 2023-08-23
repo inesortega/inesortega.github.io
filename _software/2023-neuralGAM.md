@@ -4,6 +4,7 @@ collection: software
 type: "software"
 permalink: /software/2023-neuralGAM
 url: https://github.com/inesortega/NeuralGAM
+date: 2023-08-23
 ---
 
 neuralGAM is a neural network framework based on Generalized Additive Models, which trains a different neural network to estimate the contribution of each feature to the response variable.
