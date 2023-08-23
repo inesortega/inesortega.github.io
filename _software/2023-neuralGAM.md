@@ -3,7 +3,7 @@ title: "neuralGAM: Interpretable Neural Network Based on Generalized Additive Mo
 collection: software
 type: "software"
 permalink: /software/2023-neuralGAM
-repository: https://github.com/inesortega/NeuralGAM
+url: https://github.com/inesortega/NeuralGAM
 ---
 
 neuralGAM is a neural network framework based on Generalized Additive Models, which trains a different neural network to estimate the contribution of each feature to the response variable.

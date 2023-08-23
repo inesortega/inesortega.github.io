@@ -1,7 +1,7 @@
 ---
 title: "TRUMPET - TRUstworthy Multi-site Privacy Enhancing Technologies"
 collection: projects
-type: "Horizon Europe"
+type: "he"
 permalink: /projects/2022-trumpet
 venue: "HORIZON-CL3-2021-CS-01-04 - Scalable privacy-preserving technologies for cross-border federated computation in Europe involving personal data"
 date: 2022-10-01

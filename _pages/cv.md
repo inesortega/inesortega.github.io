@@ -41,7 +41,7 @@ R&D Projects
 Software
 ======
   <ul>{% for post in site.software reversed %}
-    {% include archive-single-software-cv.html %}
+    {% include archive-single-software.html %}
   {% endfor %}</ul>
   
 Talks

@@ -1,7 +1,7 @@
 ---
 title: "INFINITECH - Tailored IoT & BigData Sandboxes and Testbeds for Smart, Autonomous and Personalized Services in the European Finance and Insurance Services Ecosystem"
 collection: projects
-type: "Horizon 2020"
+type: "h2020"
 permalink: /projects/2019-infinitech
 venue: "ICT-11-2018-2019 - HPC and Big Data enabled Large-scale Test-beds and Applications"
 date: 2019-10-01

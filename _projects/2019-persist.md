@@ -1,7 +1,7 @@
 ---
 title: "PERSIST - Patients-centered SurvivorShIp care plan after Cancer treatments based on Big Data and Artificial Intelligence technologies"
 collection: projects
-type: "Horizon 2020"
+type: "h2020"
 permalink: /projects/2019-persist
 venue: "SC1-DTH-01-2019 - Big data and Artificial Intelligence for monitoring health status and quality of life after the cancer treatment"
 date: 2019-11-05
