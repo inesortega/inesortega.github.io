@@ -1,5 +1,5 @@
 ---
-title: ": SmartNOC - Investigación en tecnologías emergentes para la gestión inteligente de
+title: "SmartNOC - Investigación en tecnologías emergentes para la gestión inteligente de
 centros de control de redes de comunicación"
 collection: projects
 type: "national"
