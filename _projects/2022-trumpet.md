@@ -6,8 +6,11 @@ permalink: /projects/2022-trumpet
 venue: "HORIZON-CL3-2021-CS-01-04 - Scalable privacy-preserving technologies for cross-border federated computation in Europe involving personal data"
 date: 2022-10-01
 end_date: 2025-09-30
-url: https://cordis.europa.eu/project/id/101070038
+link: https://cordis.europa.eu/project/id/101070038
 ---
+
+Abstract
+======
 
 In recent years, Federated Learning (FL) has emerged as a revolutionary privacy-enhancing technology and, consequently, has quickly expanded to other applications.
 However, further research has cast a shadow of doubt on the strength of privacy protection provided by FL. Potential vulnerabilities and threats pointed out by researchers included a curious aggregator threat; susceptibility to man-in-the-middle and insider attacks that disrupt the convergence of global and local models or cause convergence to fake minima; and, most importantly, inference attacks that aim to re-identify data subjects from FL’s AI model parameter updates.
