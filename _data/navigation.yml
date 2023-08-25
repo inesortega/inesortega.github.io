@@ -11,9 +11,6 @@ main:
 
   - title: "Software"
     url: /software/
-  
-  - title: "NeuralGAM"
-    url: https://inesortega.github.io/neuralGAM/
 
   - title: "CV"
     url: /cv/
