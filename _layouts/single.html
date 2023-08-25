@@ -64,9 +64,9 @@ layout: default
             }}</time></p>
         {% endif %}
         {% if page.collection == 'software' %}
-          {% if page.project_link %}
-          <div><a href="{{ page.project_link }}" class="btn">{{ "Project Website" }}</a></div>
-          {% endif %}
+        {% if page.software_link %}
+        <div><a href="{{ page.software_link }}" class="btn">{{ "Project Website" }}</a></div>
+        {% endif %}
         {% endif %}
         {% if page.citation and page.paperurl %}
         <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
