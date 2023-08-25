@@ -63,7 +63,11 @@ layout: default
             datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y"
             }}</time></p>
         {% endif %}
-
+        {% if page.collection == 'software' %}
+          {% if page.project_link %}
+          <div><a href="{{ page.project_link }}" class="btn">{{ "Project Website" }}</a></div>
+          {% endif %}
+        {% endif %}
         {% if page.citation and page.paperurl %}
         <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}

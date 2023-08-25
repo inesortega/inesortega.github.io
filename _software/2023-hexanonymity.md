@@ -3,7 +3,7 @@ title: "Hexanonymity: a scalable geo-positioned data clustering algorithm for an
 collection: software
 type: "software"
 permalink: /software/2023-hexanonymity
-url: https://github.com/Gradiant/Hexanonymity
+software_link: https://github.com/Gradiant/Hexanonymity
 date: 2023-03-09
 ---
 

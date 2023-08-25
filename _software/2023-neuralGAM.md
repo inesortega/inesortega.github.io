@@ -3,7 +3,7 @@ title: "neuralGAM: Interpretable Neural Network Based on Generalized Additive Mo
 collection: software
 type: "software"
 permalink: /software/2023-neuralGAM
-url: https://github.com/inesortega/NeuralGAM
+software_link: https://github.com/inesortega/NeuralGAM
 date: 2023-08-23
 ---
 
