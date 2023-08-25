@@ -48,6 +48,7 @@
         "1900-01-01"
         | date: "%B %d, %Y" }}</time>
     </p>
+    {% endif %}
     {% if post.excerpt %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% endif %}
