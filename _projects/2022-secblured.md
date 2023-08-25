@@ -7,6 +7,8 @@ venue: "Programa de Misiones de Ciencia e Innovación (MIG-20221051)"
 date: 2022-11-11
 end_date: 2026-06-30
 ---
+Abstract
+======
 Debido a la tendencia actual de los ataques que sufre la industria y considerando las tecnologías inalámbricas que se deben ir progresivamente implantando (ahorro cuantioso en el despliegue de nuevos sistemas), el proyecto SecBluRed plantea una aproximación de investigación holística a la ciberseguridad para la IoT Industrial (IIoT, de ahora en adelante), que podría ser extensible a otros entornos tecnológicos industriales. Para ello, se proponen tres ejes de investigación:
 
 * Securización IIoT: construcción de sistemas IIoT seguros, basado en componentes seguros. Se tratará de identificar nuevos mecanismos complementarios a los actuales para aumentar la ciberseguridad de los sistemas IIoT. Esta línea de investigación está orientada al desarrollo de sistemas IIoT que considera las redes 5G, la etapa postcuántica (que está mucho más próxima de lo que pensamos) y a garantizar la identidad de los nodos IIoT (identidad autosoberana), entre otros aspectos.

@@ -6,12 +6,10 @@ permalink: /projects/2022-trumpet
 venue: "HORIZON-CL3-2021-CS-01-04 - Scalable privacy-preserving technologies for cross-border federated computation in Europe involving personal data"
 date: 2022-10-01
 end_date: 2025-09-30
-link: https://cordis.europa.eu/project/id/101070038
+url: https://cordis.europa.eu/project/id/101070038
 ---
-
 Abstract
 ======
-
 In recent years, Federated Learning (FL) has emerged as a revolutionary privacy-enhancing technology and, consequently, has quickly expanded to other applications.
 However, further research has cast a shadow of doubt on the strength of privacy protection provided by FL. Potential vulnerabilities and threats pointed out by researchers included a curious aggregator threat; susceptibility to man-in-the-middle and insider attacks that disrupt the convergence of global and local models or cause convergence to fake minima; and, most importantly, inference attacks that aim to re-identify data subjects from FL’s AI model parameter updates.
 The goal of TRUMPET is to research and develop novel privacy enhancement methods for Federated Learning, and to deliver a highly scalable Federated AI service platform for researchers, that will enable AI-powered studies of siloed, multi-site, cross-domain, cross border European datasets with privacy guarantees that exceed the requirements of GDPR. The generic TRUMPET platform will be piloted, demonstrated and validated in the specific use case of European cancer hospitals, allowing researchers and policymakers to extract AI-driven insights from previously inaccessible cross-border, cross-organization cancer data, while ensuring the patients’ privacy. The strong privacy protection accorded by the platform will be verified through the engagement of external experts for independent privacy leakage and re-identification testing.
