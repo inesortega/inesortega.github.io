@@ -13,8 +13,6 @@ The transition from cancer patient to cancer survivor should be planned and coor
 
 Details
 ======
-* Start Date: 2019-01-01
-* End Date: 2022-02-28
 * Funded under: SOCIETAL CHALLENGES - Health, demographic change and well-being
 * Budject: € 5.065.106,25
 * Coordinator: FUNDACION CENTRO TECNOLOXICO DE TELECOMUNICACIONS DE GALICIA (GRADIANT)

@@ -17,8 +17,6 @@ Debido a la tendencia actual de los ataques que sufre la industria y considerand
 
 Details
 ======
-* Start Date: 2022-11-11
-* End Date: 2026-06-30
 * Funded under: Programa de Misiones de Ciencia e Innovación (MIG-20221051) 
 * Budject: € 4.754.933
 * Coordinator: MTP

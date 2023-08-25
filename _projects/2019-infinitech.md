@@ -12,8 +12,6 @@ Big data, artificial intelligence (AI) and Internet-of-Things (IoT) are essentia
 
 Details
 ======
-* Start Date: 2019-10-01
-* End Date: 2023-03-31
 * Funded under: INDUSTRIAL LEADERSHIP - Leadership in enabling and industrial technologies - Information and Communication Technologies (ICT)
 * Budject: € 20.745.969,26
 * Coordinator: GFT ITALIA SRL

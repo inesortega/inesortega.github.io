@@ -17,8 +17,6 @@ The consortium is composed of 9 interdisciplinary partners: 3 Research Organizat
 
 Details
 ======
-* Start Date: 2022-10-01
-* End Date: 2025-09-30
 * Funded under: Civil Security for Society
 * Budject: € 3.947.722,50
 * Coordinator: FUNDACION CENTRO TECNOLOXICO DE TELECOMUNICACIONS DE GALICIA (GRADIANT)

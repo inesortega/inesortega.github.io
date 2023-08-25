@@ -18,8 +18,6 @@ Una tarea que se concretará en la consecución de las siguientes metas específ
 
 Details
 ======
-* Start Date: 2019-08-01
-* End Date: 2022-06-30
 * Funded under: Fondo Europeo de Desarrollo Regional
 * Budject: € 4.800.000
 * Coordinator: 	FUNDACION CENTRO TECNOLOXICO DE TELECOMUNICACIONS DE GALICIA (GRADIANT)

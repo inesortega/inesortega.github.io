@@ -12,8 +12,6 @@ El objetivo del proyecto SmartNOC es investigar en diversas tecnologías, técni
 
 Details
 ======
-* Start Date: 2021-01-01
-* End Date: 2024-06-30
 * Funded under: Programa Estratégico de Consorcios de Investigación Empresarial Nacional (CIEN)
 * Budject: € 5.842.383
 * Coordinator: MTP
