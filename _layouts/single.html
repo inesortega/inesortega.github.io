@@ -48,13 +48,9 @@ layout: default
         {% elsif page.collection == 'projects' %}
         <p>Call: <i>{{ page.venue }}</i></p>
         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{"Dates:" }}</strong>
-          <time datetime="{{ post.date | default: " 1900-01-01" | date_to_xmlschema }}">{{ post.date | default:
-            "1900-01-01"
-            | date: "%B %d, %Y" }}</time> - <time datetime="{{ post.date | default: " 1900-01-01" | date_to_xmlschema
-            }}">{{
-            post.end_date | default:
-            "1900-01-01"
-            | date: "%B %d, %Y" }}</time>
+          <time datetime="{{ post.date | default: " 1900-01-01" | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y"
+            }}</time> - <time datetime="{{ post.date | default: " 1900-01-01" | date_to_xmlschema }}">{{page.end_date ||
+            date: "%B %d, %Y" }}</time>
         </p>
         {% elsif page.venue and page.date %}
         <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
