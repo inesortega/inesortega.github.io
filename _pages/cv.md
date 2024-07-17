@@ -7,16 +7,20 @@ redirect_from:
   - /resume
 ---
 
-My complete CV in PDF is available [here](https://inesortega.github.io/files/cv.pdf). 
+My complete CV is available here: [(English)](https://inesortega.github.io/files/cv.pdf) [(Spanish - CVN)](https://cvn.fecyt.es/0000-0002-8041-6860) 
+
 
 Education
 ======
-* B.S. in Computer Science, Carlos III University of Madrid, 2017
+* Ph.D in Telecommunications and Information Technology, University of Vigo, (Oct 2020 - July 2024)
 * M.S. in Cybersecurity, Carlos III University of Madrid, 2018
-* Ph.D in Telecommunications and Information Technology, University of Vigo, 2023 (expected)
+* B.S. in Computer Science, Carlos III University of Madrid, 2017
+
 
 Work experience
 ======
+* January 2024 - July 2024: Associate Lecturer in the Statistics and O.R. Department (University of Vigo)
+
 * April 2022- Present: Technical Manager of Data Analytics and AI - Security and Privacy Department - GRADIANT
 
 * August 2021 - April 2022: Senior Researcher - Engineer - Security and Privacy Department - GRADIANT
