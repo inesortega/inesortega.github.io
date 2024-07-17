@@ -7,8 +7,7 @@ redirect_from:
   - /resume
 ---
 
-My complete CV is available here: [(English)](https://inesortega.github.io/files/cv.pdf) [(Spanish - CVN)](https://cvn.fecyt.es/0000-0002-8041-6860) 
-
+My complete CV is available here in [English](https://inesortega.github.io/files/cv.pdf) an in [Spanish](https://cvn.fecyt.es/0000-0002-8041-6860)
 
 Education
 ======
@@ -46,6 +45,12 @@ Software
 ======
   <ul>{% for post in site.software reversed %}
     {% include archive-single-software.html %}
+  {% endfor %}</ul>
+
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Talks

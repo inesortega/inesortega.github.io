@@ -17,4 +17,4 @@ Since 2022 I am a Technical Manager of Data Analytics and AI at the Security and
 Before joining GRADIANT I worked for about 2 years at the Microsoft Canada Development Centre as a Software Engineer, developing solutions to process (big)data from Windows telemetry in near real time, as part of the Core Data Engineering group, and as a Research Assistant at Carlos III University of Madrid in the University Group for Identification Technologies, developing software solutions for the analysis and processing of biometric data. 
 
 
-My complete CV is available here: [(English)](https://inesortega.github.io/files/cv.pdf) [(Spanish - CVN)](https://cvn.fecyt.es/0000-0002-8041-6860) 
+My complete CV is available here in [English](https://inesortega.github.io/files/cv.pdf) an in [Spanish](https://cvn.fecyt.es/0000-0002-8041-6860) 
