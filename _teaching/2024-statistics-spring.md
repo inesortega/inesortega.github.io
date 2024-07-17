@@ -1,5 +1,5 @@
 ---
-title: "Statistics"
+title: "Statistics - Department of Statistics and Operations Research, University of Vigo, Spain. (2024)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-statistics-spring
