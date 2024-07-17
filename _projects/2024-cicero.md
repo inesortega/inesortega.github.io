@@ -6,6 +6,7 @@ permalink: /projects/2024-cicero
 venue: "Ayudas Cervera para Centros Tecnológicos (CER-20231019)"
 date: 2023-12-01
 end_date: 2025-06-30
+project_link: https://cicerocybersecurity.com/
 ---
 ## Abstract
 La adopción masiva de tecnologías de la información y telecomunicaciones está cambiando cómo nos relacionamos e interactuamos. Esto ha provocado, además de múltiples beneficios, un aumento de los riesgos asociados a la adopción de nuevas tecnologías, principalmente los generados por amenazas a la seguridad de la información o ciberamenazas que ponen en riesgo el crecimiento, sostenibilidad y modo de vida.
