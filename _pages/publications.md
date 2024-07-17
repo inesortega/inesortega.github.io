@@ -29,3 +29,11 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
     {% include archive-single-cv.html %}
   {% endif %}
 {% endfor %}</ul>
+
+### PhD Thesis
+
+<ul>{% for post in site.publications reversed %}
+  {% if post.type == "phd" %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+{% endfor %}</ul>
