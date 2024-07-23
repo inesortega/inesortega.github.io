@@ -1,22 +1,22 @@
 ---
-title: "TRUMPET - TRUstworthy Multi-site Privacy Enhancing Technologies"
+title: "PRESERVE - Ethics and Privacy-preserving Big Data platform for Supporting criminal investigations"
 collection: projects
 type: "he"
 permalink: /projects/2024-preserve-project
-venue: "HORIZON-CL3-2021-CS-01-04 - Scalable privacy-preserving technologies for cross-border federated computation in Europe involving personal data"
-date: 2022-10-01
-end_date: 2025-09-30
-project_link: https://cordis.europa.eu/project/id/101070038
+venue: "HORIZON-CL3-2023-FCT-01 - Fighting Crime and Terrorism 2023"
+date: 2024-09-01
+end_date: 2027-08-31
+project_link: https://cordis.europa.eu/project/id/101168309
 ---
 
 ## Abstract
-In recent years, Federated Learning (FL) has emerged as a revolutionary privacy-enhancing technology and, consequently, has quickly expanded to other applications.
-However, further research has cast a shadow of doubt on the strength of privacy protection provided by FL. Potential vulnerabilities and threats pointed out by researchers included a curious aggregator threat; susceptibility to man-in-the-middle and insider attacks that disrupt the convergence of global and local models or cause convergence to fake minima; and, most importantly, inference attacks that aim to re-identify data subjects from FL’s AI model parameter updates.
-The goal of TRUMPET is to research and develop novel privacy enhancement methods for Federated Learning, and to deliver a highly scalable Federated AI service platform for researchers, that will enable AI-powered studies of siloed, multi-site, cross-domain, cross border European datasets with privacy guarantees that exceed the requirements of GDPR. The generic TRUMPET platform will be piloted, demonstrated and validated in the specific use case of European cancer hospitals, allowing researchers and policymakers to extract AI-driven insights from previously inaccessible cross-border, cross-organization cancer data, while ensuring the patients’ privacy. The strong privacy protection accorded by the platform will be verified through the engagement of external experts for independent privacy leakage and re-identification testing.
-A secondary goal is to research, develop and promote with EU data protection authorities a novel metric and tool for the certification of GDPR compliance of FL implementations.
-The consortium is composed of 9 interdisciplinary partners: 3 Research Organizations, 1 University, 3 SMEs and 2 Clinical partners with extensive experience and expertise to guarantee the correct performance of the activities and the achievement of the results.
+This project aims to develop an innovative and privacy-preserving decision-support system for European law enforcement 
+authorities, leveraging advanced Big Data and AI technologies to effectively combat crimes and terrorism. The proposed system integrates Federated Learning, User and Entity Behavior Analytics (UEBA), and other Big Data and AI techniques to monitor social network data, deep and shallow web information, and police databases in a secure, collaborative, privacy-aware and ethical manner. 
+
+The primary objective is to help Law Enforcement Authorities (LEAs) fighting cybercrime and terrorism by identifying key communities and users involved in activities such as hate speech, child sexual abuse, terrorism, or drug trafficking and to use this information to better allocate police resources. PRESERVE will leverage Federated Learning, a decentralised machine learning approach that allows model training on distributed data sources while preserving data privacy. By collaborating with multiple LEAs across Europe, PRESERVE will collectively combine social network data, deep and shallow web information, and police databases to analyse large amounts of spatial and temporal data related to criminal activities to identify patterns and correlations to provide better police-resource management on critical areas.
 
 ## Details
-* Funded under: Civil Security for Society
-* Budject: € 3.947.722,50
+* Funded under: Fighting Crime and Terrorism 2023 (GA 101168309)
+* Budject: € 6.043.163
 * Coordinator: FUNDACION CENTRO TECNOLOXICO DE TELECOMUNICACIONS DE GALICIA (GRADIANT)
+* Consortium: EXUS, KEMEA, HPOL, ERTZ, PARADGM, RMIA, GF, RISA, NURO, TREE, BU, UBITECH, UNIBA
