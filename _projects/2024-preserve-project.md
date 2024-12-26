@@ -8,7 +8,6 @@ date: 2024-09-01
 end_date: 2027-08-31
 project_link: https://cordis.europa.eu/project/id/101168309
 ---
-
 ## Abstract
 This project aims to develop an innovative and privacy-preserving decision-support system for European law enforcement authorities leveraging advanced Big Data and AI technologies to effectively combat crimes and terrorism. The proposed system integrates Federated Learning, User and Entity Behavior Analytics (UEBA), and other Big Data and AI techniques to monitor social network data, deep and shallow web information, and police databases in a secure, collaborative, privacy-aware and ethical manner. The primary objective is to help Law Enforcement Authorities (LEAs) fighting cybercrime and terrorism by identifying key communities and users involved in activities such as hate speech, child sexual abuse, terrorism, or drug trafficking and to use this information to better allocate police resources. 
 
