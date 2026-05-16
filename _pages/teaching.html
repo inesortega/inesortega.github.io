@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign teaching_types = "University teaching|Academic thesis advisor|Academic practices advisor" | split: "|" %}
+{% assign teaching_types = "Teaching|Academic thesis advisor|Academic practices advisor" | split: "|" %}
 
 {% for teaching_type in teaching_types %}
   {% assign entries = site.teaching | where: "type", teaching_type | sort: "date" | reverse %}
