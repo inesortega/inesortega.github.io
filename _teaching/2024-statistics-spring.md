@@ -1,7 +1,7 @@
 ---
-title: "Statistics - Department of Statistics and Operations Research, University of Vigo, Spain. (2024)"
+title: "Statistics - Bachelor's Degree in Business Administration and Management"
 collection: teaching
-type: "Undergraduate course"
+type: "Teaching"
 permalink: /teaching/2024-statistics-spring
 venue: "University of Vigo, Department of Statistics and Operative Research"
 date: 2024-01-29

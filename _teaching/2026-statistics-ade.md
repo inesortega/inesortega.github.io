@@ -1,7 +1,7 @@
 ---
 title: "Statistics - Bachelor's Degree in Business Administration and Management"
 collection: teaching
-type: "University teaching"
+type: "Teaching"
 permalink: /teaching/2026-statistics-ade
 venue: "University of Vigo, Department of Statistics and Operations Research"
 date: 2026-01-26

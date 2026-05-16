@@ -7,31 +7,34 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign teaching_types = site.teaching | map: "type" | uniq | sort %}
+{% assign teaching_types = "University teaching|Academic thesis advisor|Academic practices advisor" | split: "|" %}
 
 {% for teaching_type in teaching_types %}
-  <h2>{{ teaching_type }}</h2>
-
-  <ul>
   {% assign entries = site.teaching | where: "type", teaching_type | sort: "date" | reverse %}
-  {% for post in entries %}
-    <li style="margin-bottom: 1rem;">
-      <a href="{{ base_path }}{{ post.url }}">
+
+  {% if entries.size > 0 %}
+    <h2>{{ teaching_type }}</h2>
+
+    <ul>
+    {% for post in entries %}
+      <li style="margin-bottom: 0.5rem;">
+
         {{ post.title }}
-      </a>
 
-      {% if post.venue %}
-        <br>{{ post.venue }}
-      {% endif %}
+        {% if post.venue %}
+          — {{ post.venue }}
+        {% endif %}
 
-      {% if post.location %}
-        <br>{{ post.location }}
-      {% endif %}
+        {% if post.location %}
+          — {{ post.location }}
+        {% endif %}
 
-      {% if post.date %}
-        <br>{{ post.date | date: "%Y" }}
-      {% endif %}
-    </li>
-  {% endfor %}
-  </ul>
+        {% if post.date %}
+          — {{ post.date | date: "%Y" }}
+        {% endif %}
+
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
 {% endfor %}
