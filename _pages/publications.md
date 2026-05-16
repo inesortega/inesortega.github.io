@@ -10,7 +10,7 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
 
 <ul>{% for post in site.publications reversed %}
   {% if post.type == "journal" %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-cv-simplified.html %}
   {% endif %}
 {% endfor %}</ul>
 
@@ -18,7 +18,7 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
 
 <ul>{% for post in site.publications reversed %}
   {% if post.type == "book-chapter" %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-cv-simplified.html %}
   {% endif %}
 {% endfor %}</ul>
 
@@ -26,7 +26,7 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
 
 <ul>{% for post in site.publications reversed %}
   {% if post.type == "conference" %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-cv-simplified.html %}
   {% endif %}
 {% endfor %}</ul>
 
@@ -34,7 +34,7 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
 
 <ul>{% for post in site.publications reversed %}
   {% if post.type == "presentation" %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-cv-simplified.html %}
   {% endif %}
 {% endfor %}</ul>
 
@@ -42,6 +42,6 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
 
 <ul>{% for post in site.publications reversed %}
   {% if post.type == "phd" %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-cv-simplified.html %}
   {% endif %}
 {% endfor %}</ul>

@@ -1,0 +1,17 @@
+{% include base_path %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <li>
+      <p class="archive__item-excerpt" itemprop="description">
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">
+            {{ post.citation | default: post.title }}
+          </a>
+        {% else %}
+          {{ post.citation | default: post.title }}
+        {% endif %}
+      </p>
+    </li>
+  </article>
+</div>
