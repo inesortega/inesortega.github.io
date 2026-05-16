@@ -8,6 +8,7 @@ date: 2025-01-01
 end_date: 2026-12-31
 project_link: https://spice-platform.eu/
 ---
+
 ## Abstract
 SPICE focuses on the development of intelligent and privacy-aware data pipelines for the Cognitive Compute Continuum, enabling secure and efficient data processing across cloud, edge, and distributed computing infrastructures. The project aims to facilitate trustworthy data sharing and interoperability within emerging European data spaces while ensuring compliance with privacy and security requirements.
 
@@ -17,6 +18,5 @@ The resulting technologies aim to improve secure data exchange, interoperability
 
 ## Details
 * Funded under: Recovery and Resilience Plan of the Slovak Republic (GA 09I02-03-V01-00012)
-* Coordinator: International consortium
 * Role: Research team member
 * Research topics: Privacy-preserving AI, Data Anonymization, Cloud-Edge Computing, European Data Spaces, PETs

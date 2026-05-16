@@ -17,6 +17,5 @@ The project contributed to the development of trustworthy and resilient digital 
 
 ## Details
 * Funded under: Horizon 2020 (GA 952702)
-* Coordinator: European consortium
 * Role: Research team member
 * Research topics: Cybersecurity Analytics, Vulnerability Analysis, ICT Supply Chains, Risk Assessment

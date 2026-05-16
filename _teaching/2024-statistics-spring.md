@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-statistics-spring
 venue: "University of Vigo, Department of Statistics and Operative Research"
-date: 2014-01-29
+date: 2024-01-29
 location: "Vigo, Spain"
 ---
 
