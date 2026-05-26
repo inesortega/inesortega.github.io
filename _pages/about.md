@@ -25,4 +25,4 @@ Her scientific contributions include peer-reviewed publications in journals as w
 Her research activity combines machine learning, cybersecurity, telecommunications, privacy-enhancing technologies, and computational statistics in close collaboration with multidisciplinary teams from academia, industry, and public institutions. She has collaborated with companies and organizations such as the University of Vigo, Cellnex, ABANCA, INCIBE, CCN-CERT, and several European research consortia, contributing to the transfer of trustworthy AI and cybersecurity technologies into real-world applications. She has also participated in science communication and citizen-science initiatives, including the development of the collaborative environmental monitoring platform *pelletMap* during the 2024 Galician pellet spill crisis.
 
 
-My complete CV is available here in [English](https://inesortega.github.io/files/cv.pdf) an in [Spanish](https://cvn.fecyt.es/0000-0002-8041-6860). 
+My complete CV is available here in [English](https://inesortega.github.io/files/cv.pdf) an in [Spanish](https://editor.cvn.fecyt.es/editor/cvnOnline/0000-0002-8041-6860). 
