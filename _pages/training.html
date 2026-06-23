@@ -2,9 +2,21 @@
 layout: archive
 title: "Training"
 permalink: /training/
-author_profile: true
 ---
 
-{% for post in site.training reversed %}
-{% include archive-single-training.html %}
-{% endfor %}
+<section class="cv-section">
+  {% if site.training and site.training.size > 0 %}
+    {% assign items = site.training | sort: 'date' | reverse %}
+    {% for post in items %}
+    <div class="cv-entry">
+      <div class="cv-date">{% if post.date %}{{ post.date | date: '%Y' }}{% endif %}</div>
+      <div class="cv-content">
+        <div class="title">{{ post.title }}</div>
+        {% if post.venue %}<div class="org">{{ post.venue }}</div>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  {% else %}
+    <p class="empty-note">No training entries to display.</p>
+  {% endif %}
+</section>

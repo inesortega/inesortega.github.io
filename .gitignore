@@ -1,4 +1,14 @@
 _site/
+CLAUDE.md
+
+# Local Jekyll / Bundler build artifacts
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
+.bundle/
+Gemfile.lock
+
 .DS_Store
 Thumbs.db
 *.log
@@ -7,3 +17,4 @@ Thumbs.db
 *.swp
 *.swo
 *.swn
+serve.sh

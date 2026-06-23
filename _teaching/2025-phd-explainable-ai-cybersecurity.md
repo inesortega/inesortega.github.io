@@ -4,7 +4,7 @@ collection: teaching
 type: "Academic thesis advisor"
 permalink: /teaching/2025-phd-explainable-ai-cybersecurity
 venue: "Universidade da Coruña, PhD Programme in Information and Communication Technologies (In progress)"
-date: 2028-01-01
+date: 2025-01-01
 location: "A Coruña, Spain"
 ---
 

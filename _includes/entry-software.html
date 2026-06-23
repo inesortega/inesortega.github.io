@@ -1,0 +1,13 @@
+{%- comment -%} Software list/CV entry. Expects `post`. {%- endcomment -%}
+<div class="pub-entry">
+  {% if post.software_link %}
+    <a href="{{ post.software_link }}" class="pub-title" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+  {% else %}
+    <a href="{{ post.url | relative_url }}" class="pub-title">{{ post.title }}</a>
+  {% endif %}
+  {% if post.excerpt %}<div class="pub-citation">{{ post.excerpt | strip_html | strip_newlines | truncate: 240 }}</div>{% endif %}
+  <div class="pub-links">
+    <a href="{{ post.url | relative_url }}">details</a>
+    {% if post.software_link %}<a href="{{ post.software_link }}" target="_blank" rel="noopener noreferrer">website ↗</a>{% endif %}
+  </div>
+</div>

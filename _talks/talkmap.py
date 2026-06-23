@@ -34,7 +34,8 @@ for file in g:
             loc_end = lines_trim.find('"')
             location = lines_trim[:loc_end]
                             
-           
+        if location == "Online":
+            continue
         location_dict[location] = geocoder.geocode(location)
         print(location, "\n", location_dict[location])
 

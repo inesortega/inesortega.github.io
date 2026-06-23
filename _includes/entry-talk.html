@@ -1,0 +1,9 @@
+{%- comment -%} Talk CV entry. Expects `post`. {%- endcomment -%}
+<div class="cv-entry">
+  <div class="cv-date">{% if post.date %}{{ post.date | date: '%b %Y' }}{% endif %}</div>
+  <div class="cv-content">
+    <div class="title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+    {% if post.venue %}<div class="org">{{ post.venue }}</div>{% endif %}
+    {% if post.location %}<div class="details">{{ post.location }}</div>{% endif %}
+  </div>
+</div>

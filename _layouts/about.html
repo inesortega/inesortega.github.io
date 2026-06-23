@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="container container--narrow">
+  <header class="about-header">
+    {% if site.author.avatar %}
+    <img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="{{ site.author.name }}" class="about-photo">
+    {% endif %}
+    <div class="about-header-text">
+      <h1>{{ page.heading | default: site.author.name }}</h1>
+      {% if page.role or site.author.bio %}<p class="role">{{ page.role | default: site.author.bio }}</p>{% endif %}
+      <div class="contact-links">
+        {% if site.author.email %}<a href="mailto:{{ site.author.email }}">email</a>{% endif %}
+        {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">github</a>{% endif %}
+        {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">scholar</a>{% endif %}
+        {% if site.author.linkedin %}<a href="{{ site.author.linkedin }}">linkedin</a>{% endif %}
+        {% if site.author.orcid %}<a href="{{ site.author.orcid }}">orcid</a>{% endif %}
+        <a href="{{ '/cv/' | relative_url }}">cv</a>
+      </div>
+    </div>
+  </header>
+
+  <article class="about-content">
+    {{ content }}
+  </article>
+
+  {% include site-footer.html %}
+</div>

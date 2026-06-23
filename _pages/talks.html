@@ -1,14 +1,12 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Invited Talks, Seminars & Workshops"
 permalink: /talks/
-author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<p class="page-intro">Selected invited research seminars, talks, and workshops.</p>
 
-{% endif %}
-
-{% for post in site.talks reversed %}
-{% include archive-single-talk.html %}
-{% endfor %}
+<section class="cv-section">
+  {% assign talks = site.talks | sort: 'date' | reverse %}
+  {% for post in talks %}{% include entry-talk.html %}{% endfor %}
+</section>

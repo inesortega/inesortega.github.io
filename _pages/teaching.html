@@ -1,40 +1,29 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Teaching & Supervision"
 permalink: /teaching/
-author_profile: true
 ---
 
-{% include base_path %}
+{% assign courses = site.teaching | where: 'type', 'Teaching' | sort: 'date' | reverse %}
+{% if courses.size > 0 %}
+<section class="cv-section">
+  <h2>Teaching</h2>
+  {% for post in courses %}{% include entry-teaching.html %}{% endfor %}
+</section>
+{% endif %}
 
-{% assign teaching_types = "Teaching|Academic thesis advisor|Academic practices advisor" | split: "|" %}
+{% assign theses = site.teaching | where: 'type', 'Academic thesis advisor' | sort: 'date' | reverse %}
+{% if theses.size > 0 %}
+<section class="cv-section">
+  <h2>Thesis Supervision</h2>
+  {% for post in theses %}{% include entry-teaching.html %}{% endfor %}
+</section>
+{% endif %}
 
-{% for teaching_type in teaching_types %}
-  {% assign entries = site.teaching | where: "type", teaching_type | sort: "date" | reverse %}
-
-  {% if entries.size > 0 %}
-    <h2>{{ teaching_type }}</h2>
-
-    <ul>
-    {% for post in entries %}
-      <li style="margin-bottom: 0.5rem;">
-
-        {{ post.title }}
-
-        {% if post.venue %}
-          — {{ post.venue }}
-        {% endif %}
-
-        {% if post.location %}
-          — {{ post.location }}
-        {% endif %}
-
-        {% if post.date %}
-          — {{ post.date | date: "%Y" }}
-        {% endif %}
-
-      </li>
-    {% endfor %}
-    </ul>
-  {% endif %}
-{% endfor %}
+{% assign practices = site.teaching | where: 'type', 'Academic practices advisor' | sort: 'date' | reverse %}
+{% if practices.size > 0 %}
+<section class="cv-section">
+  <h2>Academic Practices</h2>
+  {% for post in practices %}{% include entry-teaching.html %}{% endfor %}
+</section>
+{% endif %}

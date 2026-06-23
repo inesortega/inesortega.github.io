@@ -1,0 +1,13 @@
+{%- comment -%} Publication list/CV entry. Expects `post`. {%- endcomment -%}
+<div class="pub-entry">
+  {% if post.paperurl %}
+    <a href="{{ post.paperurl }}" class="pub-title" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+  {% else %}
+    <a href="{{ post.url | relative_url }}" class="pub-title">{{ post.title }}</a>
+  {% endif %}
+  {% if post.citation %}<div class="pub-citation">{{ post.citation }}</div>{% endif %}
+  <div class="pub-links">
+    <a href="{{ post.url | relative_url }}">details</a>
+    {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">paper ↗</a>{% endif %}
+  </div>
+</div>

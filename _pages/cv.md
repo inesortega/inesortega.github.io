@@ -1,68 +1,139 @@
 ---
-layout: archive
-title: "CV"
+layout: cv
+title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: true
+pdf: /files/cv.pdf
 redirect_from:
   - /resume
 ---
 
-My complete CV is available here in [English](https://inesortega.github.io/files/cv.pdf) an in [Spanish](https://cvn.fecyt.es/0000-0002-8041-6860)
+<p class="page-intro">My complete CV is also available in <a href="https://inesortega.github.io/files/cv.pdf">English (PDF)</a> and in <a href="https://editor.cvn.fecyt.es/editor/cvnOnline/0000-0002-8041-6860">Spanish (CVN)</a>.</p>
 
-Education
-======
-* Ph.D in Telecommunications and Information Technology, University of Vigo, (Oct 2020 - July 2024)
-* M.S. in Cybersecurity, Carlos III University of Madrid, 2018
-* B.S. in Computer Science, Carlos III University of Madrid, 2017
+<section class="cv-section">
+  <h2>Education</h2>
 
+  <div class="cv-entry">
+    <div class="cv-date">2020–2024</div>
+    <div class="cv-content">
+      <div class="title">PhD, Telecommunications &amp; Information Technology</div>
+      <div class="org">Universidade de Vigo</div>
+      <div class="details">Cum Laude, International Mention &amp; Industrial Doctorate distinction. Pre-doctoral research stay at Roma Sapienza (2023, 3 months).</div>
+    </div>
+  </div>
 
-Work experience
-======
-* January 2024 - July 2024: Associate Lecturer in the Statistics and O.R. Department (University of Vigo)
+  <div class="cv-entry">
+    <div class="cv-date">2017 - 2018</div>
+    <div class="cv-content">
+      <div class="title">MSc, Cybersecurity</div>
+      <div class="org">Universidad Carlos III de Madrid</div>
+    </div>
+  </div>
 
-* April 2022- Present: Technical Manager of Data Analytics and AI - Security and Privacy Department - GRADIANT
+  <div class="cv-entry">
+    <div class="cv-date">2012 - 2017</div>
+    <div class="cv-content">
+      <div class="title">BSc, Computer Science</div>
+      <div class="org">Universidad Carlos III de Madrid</div>
+    </div>
+  </div>
+</section>
 
-* August 2021 - April 2022: Senior Researcher - Engineer - Security and Privacy Department - GRADIANT
+<section class="cv-section">
+  <h2>Work Experience</h2>
 
-* March 2020 - August 2021: Researcher - Engineer - Security and Privacy Department - GRADIANT
-
-* October 2018 - March 2020: Software Engineer - Microsoft Canada Development Centre 
-
-Publications
-======
-
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-R&D Projects
-======
-  <ul>{% for post in site.projects reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Software
-======
-  <ul>{% for post in site.software reversed %}
-    {% include archive-single-software.html %}
-  {% endfor %}</ul>
-
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
 
-Skills
-======
-* Large experience programming on Python, R, C, C++, Java
-* Project management (Task and WP leader, project management). 
-* Funding acquisition. Experience preparing H2020 and Horizon Europe proposals.
-* Knowledge of Git, Docker, Jenkins, CI/CD methodologies, Software design patterns, ELK stack, bash shell scripting
-* SQL databases, data processing and management
+  <div class="cv-entry">
+    <div class="cv-date">2026–present</div>
+    <div class="cv-content">
+      <div class="title">Research Fellow, Machine Alingment and Theory Scholars (MATS)</div>
+      <div class="org">AI Security research fellow, advised by Keri Warr (Anthropic)</div>
+    </div>
+  </div>
+  
+  <div class="cv-entry">
+    <div class="cv-date">2022-2026</div>
+    <div class="cv-content">
+      <div class="title">Technical Manager of Data Analytics &amp; AI</div>
+      <div class="org">Security and Privacy Department, GRADIANT</div>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-date">2024 &amp 2026</div>
+    <div class="cv-content">
+      <div class="title">Associate Lecturer</div>
+      <div class="org">Statistics &amp; Operations Research Department, Universidade de Vigo</div>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-date">2021–2022</div>
+    <div class="cv-content">
+      <div class="title">Senior Researcher / Engineer</div>
+      <div class="org">Security and Privacy Department, GRADIANT</div>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-date">2020–2021</div>
+    <div class="cv-content">
+      <div class="title">Researcher / Engineer</div>
+      <div class="org">Security and Privacy Department, GRADIANT</div>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-date">2018–2020</div>
+    <div class="cv-content">
+      <div class="title">Software Engineer</div>
+      <div class="org">Microsoft Canada Development Centre — Core Data Engineering</div>
+    </div>
+  </div>
+</section>
+
+<section class="cv-section">
+  <h2>Publications</h2>
+  {% assign pubs = site.publications | sort: 'date' | reverse %}
+  {% for post in pubs %}{% include entry-pub.html %}{% endfor %}
+</section>
+
+<section class="cv-section">
+  <h2>R&amp;D Projects</h2>
+  {% assign projs = site.projects | sort: 'date' | reverse %}
+  {% for post in projs %}{% include entry-project.html %}{% endfor %}
+</section>
+
+<section class="cv-section">
+  <h2>Software</h2>
+  {% assign sw = site.software | sort: 'date' | reverse %}
+  {% for post in sw %}{% include entry-software.html %}{% endfor %}
+</section>
+
+<section class="cv-section">
+  <h2>Personal Projects</h2>
+  {% assign pers = site.personal | sort: 'date' | reverse %}
+  {% for post in pers %}{% include entry-personal.html %}{% endfor %}
+</section>
+
+<section class="cv-section">
+  <h2>Teaching &amp; Supervision</h2>
+  {% assign teach = site.teaching | sort: 'date' | reverse %}
+  {% for post in teach %}{% include entry-teaching.html %}{% endfor %}
+</section>
+
+<section class="cv-section">
+  <h2>Talks</h2>
+  {% assign talks = site.talks | sort: 'date' | reverse %}
+  {% for post in talks %}{% include entry-talk.html %}{% endfor %}
+</section>
+
+<section class="cv-section">
+  <h2>Skills</h2>
+  <p class="inline-list">
+    <strong>Programming:</strong> Python, R, C, C++, Java<br>
+    <strong>Project management:</strong> task &amp; work-package leader; funding acquisition; H2020 and Horizon Europe proposal preparation<br>
+    <strong>Tools &amp; DevOps:</strong> Git, Docker, Jenkins, CI/CD methodologies, software design patterns, ELK stack, bash scripting<br>
+    <strong>Data:</strong> SQL databases, data processing and management
+  </p>
+</section>

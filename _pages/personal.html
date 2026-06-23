@@ -1,0 +1,12 @@
+---
+layout: archive
+title: "Personal Projects"
+permalink: /personal/
+---
+
+<p class="page-intro">Side projects beyond research — citizen science, mapping, and other things I build for fun.</p>
+
+<section class="cv-section">
+  {% assign items = site.personal | sort: 'date' | reverse %}
+  {% for post in items %}{% include entry-personal.html %}{% endfor %}
+</section>

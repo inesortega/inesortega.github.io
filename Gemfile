@@ -23,5 +23,8 @@ group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
-  gem 'hawkins'
 end
+
+# Pin native deps to versions compatible with the macOS system Ruby (2.6.x).
+# Newer ffi (>= 1.17) requires Ruby >= 3.0 and will break `bundle install`.
+gem "ffi", "~> 1.15.5"
