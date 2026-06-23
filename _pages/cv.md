@@ -60,7 +60,7 @@ redirect_from:
   </div>
 
   <div class="cv-entry">
-    <div class="cv-date">2024 &amp 2026</div>
+    <div class="cv-date">2024 &amp; 2026</div>
     <div class="cv-content">
       <div class="title">Associate Lecturer</div>
       <div class="org">Statistics &amp; Operations Research Department, Universidade de Vigo</div>
