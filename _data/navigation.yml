@@ -2,24 +2,32 @@
 main:
   - title: "About"
     url: /
+    icon: user
 
   - title: "Publications"
     url: /publications/
+    icon: book
 
   - title: "Projects"
     url: /projects/
+    icon: folder
 
   - title: "Software"
     url: /software/
+    icon: code
 
   - title: "Personal"
     url: /personal/
+    icon: compass
 
   - title: "Talks"
     url: /talks/
+    icon: mic
 
   - title: "Teaching"
     url: /teaching/
+    icon: graduation
 
   - title: "CV"
     url: /cv/
+    icon: cv
