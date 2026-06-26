@@ -46,8 +46,8 @@ redirect_from:
   <div class="cv-entry">
     <div class="cv-date">2026–present</div>
     <div class="cv-content">
-      <div class="title">Research Fellow, Machine Alingment and Theory Scholars (MATS)</div>
-      <div class="org">AI Security research fellow, advised by Keri Warr (Anthropic)</div>
+      <div class="title">Research Fellow, at Machine Alignment, Transparency & Security (MATS)</div>
+      <div class="org">AI Security research fellowship, advised by Keri Warr (Anthropic). Working on inference verification mechanisms.</div>
     </div>
   </div>
   
@@ -55,7 +55,7 @@ redirect_from:
     <div class="cv-date">2022-2026</div>
     <div class="cv-content">
       <div class="title">Technical Manager of Data Analytics &amp; AI</div>
-      <div class="org">Security and Privacy Department, GRADIANT</div>
+      <div class="org">Security and Privacy Department, GRADIANT.</div>
     </div>
   </div>
 
