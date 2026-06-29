@@ -28,6 +28,10 @@ main:
     url: /teaching/
     icon: graduation
 
+  - title: "News"
+    url: /news/
+    icon: news
+
   - title: "CV"
     url: /cv/
     icon: cv

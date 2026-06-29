@@ -99,6 +99,43 @@ redirect_from:
 </section>
 
 <section class="cv-section">
+  <h2>Honors &amp; Awards</h2>
+
+  <div class="cv-entry">
+    <div class="cv-date">2026</div>
+    <div class="cv-content">
+      <div class="title">MATS Research Fellowship</div>
+      <div class="org">ML Alignment &amp; Theory Scholars Program</div>
+      <div class="details">Competitive international fellowship in AI safety and alignment research.</div>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-date">2026</div>
+    <div class="cv-content">
+      <div class="title">Best PhD Thesis Award in Cybersecurity</div>
+      <div class="org">USC-INCIBE Cybersecurity Economics Chair (CECOCIB)</div>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-date">2026</div>
+    <div class="cv-content">
+      <div class="title">Gold Reviewer (top 25%)</div>
+      <div class="org">International Conference on Machine Learning (ICML 2026)</div>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-date">2025</div>
+    <div class="cv-content">
+      <div class="title">Best PhD Thesis Award in Cybersecurity</div>
+      <div class="org">Cátedra R en Ciberseguridad (UVigo – UDC)</div>
+    </div>
+  </div>
+</section>
+
+<section class="cv-section">
   <h2>R&amp;D Projects</h2>
   {% assign projs = site.projects | sort: 'date' | reverse %}
   {% for post in projs %}{% include entry-project.html %}{% endfor %}
@@ -111,12 +148,6 @@ redirect_from:
 </section>
 
 <section class="cv-section">
-  <h2>Personal Projects</h2>
-  {% assign pers = site.personal | sort: 'date' | reverse %}
-  {% for post in pers %}{% include entry-personal.html %}{% endfor %}
-</section>
-
-<section class="cv-section">
   <h2>Teaching &amp; Supervision</h2>
   {% assign teach = site.teaching | sort: 'date' | reverse %}
   {% for post in teach %}{% include entry-teaching.html %}{% endfor %}
@@ -126,6 +157,12 @@ redirect_from:
   <h2>Talks</h2>
   {% assign talks = site.talks | sort: 'date' | reverse %}
   {% for post in talks %}{% include entry-talk.html %}{% endfor %}
+</section>
+
+<section class="cv-section">
+  <h2>Personal Projects</h2>
+  {% assign pers = site.personal | sort: 'date' | reverse %}
+  {% for post in pers %}{% include entry-personal.html %}{% endfor %}
 </section>
 
 <section class="cv-section">
