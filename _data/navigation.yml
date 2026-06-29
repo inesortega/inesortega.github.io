@@ -8,6 +8,10 @@ main:
     url: /publications/
     icon: book
 
+  - title: "Teaching"
+    url: /teaching/
+    icon: graduation
+
   - title: "Projects"
     url: /projects/
     icon: folder
@@ -15,6 +19,10 @@ main:
   - title: "Software"
     url: /software/
     icon: code
+
+  - title: "CV"
+    url: /cv/
+    icon: cv
 
   - title: "Personal"
     url: /personal/
@@ -24,14 +32,6 @@ main:
     url: /talks/
     icon: mic
 
-  - title: "Teaching"
-    url: /teaching/
-    icon: graduation
-
   - title: "News"
     url: /news/
     icon: news
-
-  - title: "CV"
-    url: /cv/
-    icon: cv

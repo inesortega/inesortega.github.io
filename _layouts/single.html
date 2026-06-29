@@ -20,7 +20,7 @@ layout: default
       {% when 'teaching' %}
         {% if page.type %}<span class="accent">{{ page.type }}</span>{% endif %}
         {% if page.venue %}<span>{{ page.venue }}</span>{% endif %}
-        {% if page.date %}<span>{{ page.date | date: '%Y' }}</span>{% endif %}
+        {% if page.date %}<span>{{ page.date | date: '%Y' }}{% if page.end_date %} – {{ page.end_date | date: '%Y' }}{% elsif page.in_progress %} – present{% endif %}</span>{% endif %}
       {% when 'software' %}
         {% if page.date %}<span class="accent">Released {{ page.date | date: '%B %Y' }}</span>{% endif %}
       {% when 'personal' %}
