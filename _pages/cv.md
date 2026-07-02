@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<p class="page-intro">My complete CV is also available in <a href="https://inesortega.github.io/files/cv.pdf">English (PDF)</a> and in <a href="https://editor.cvn.fecyt.es/editor/cvnOnline/0000-0002-8041-6860">Spanish (CVN)</a>.</p>
+<p class="page-intro">My complete CV is also available in <a href="https://inesortega.github.io/files/cv.pdf">English (PDF)</a> and in <a href="https://editor.cvn.fecyt.es/editor/downloadPdfHistory/cvn_20260702204858650_1783018142663.pdf">Spanish (CVN)</a>.</p>
 
 <section class="cv-section">
   <h2>Education</h2>

@@ -34,4 +34,4 @@ During the last years, I've participated in 14 competitive European, national, a
 
 My scientific contributions include peer-reviewed publications in journals as well as contributions to international conferences including ACM IH&MMSec or IEEE EuroS&PW. In addition, I've supervised bachelor, master, and doctoral theses in cybersecurity, privacy-preserving AI, and explainable machine learning, including award-winning student projects.
 
-My complete CV is available in the following links in [English](https://inesortega.github.io/files/cv.pdf) and in [Spanish](https://editor.cvn.fecyt.es/editor/cvnOnline/0000-0002-8041-6860).
+My complete CV is available in the following links in [English](https://inesortega.github.io/files/cv.pdf) and in [Spanish](https://editor.cvn.fecyt.es/editor/downloadPdfHistory/cvn_20260702204858650_1783018142663.pdf).
