@@ -10,13 +10,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a researcher in machine learning, cybersecurity, trustworthy artificial intelligence, and privacy-preserving technologies. My research interests focus on interpretable and trustworthy machine learning, explainable deep learning, anomaly detection, privacy-preserving AI, federated learning security, and applied computational statistics.
+I am a researcher in AI Security, trustworthy artificial intelligence, and privacy-preserving technologies. My research interests focus on AI Security and control, interpretable and trustworthy machine learning, explainable deep learning, anomaly detection, privacy-preserving AI, federated learning security, and applied computational statistics.
 
 ## Background
 
 I received my PhD in Information and Telecommunications Technologies from the Universidade de Vigo in 2024, awarded with *Cum Laude* distinction, International Mention, and Industrial Doctorate distinction, with the dissertation entitled "Machine Learning Approaches and Explainability for Real-Time Cyberattack Detection". During my doctoral studies, I carried out a predoctoral research stay at the Department of Computer, Control and Management Engineering (DIAG) of Sapienza University of Rome, where I investigated reinforcement-learning approaches for the mitigation of denial-of-service attacks in smart grids.
 
-From 2022 to May 2026, I served as Technical Manager of Data Analytics & AI at the Galician Research and Development Center in Advanced Telecommunications (Gradiant), leading multidisciplinary R&D activities in artificial intelligence, cybersecurity, privacy-enhancing technologies, and data analytics. In Summer 2026, I was selected as Research Fellow in the highly competitive [MATS Program](https://www.matsprogram.org/). Previously, I worked as Software Engineer at the Microsoft Canada Development Centre within the Core Data Engineering group, developing large-scale telemetry processing solutions for Windows and Azure cloud infrastructures. Earlier in my career, I also worked as research assistant at Universidad Carlos III de Madrid on biometric data-processing and privacy-related research projects. I additionally held a position as Associate Lecturer at the Department of Statistics and Operations Research at the Universidade de Vigo during 2023/2024 and 2025/2026 academic years.
+From 2022 to May 2026, I served as Technical Manager of Data Analytics & AI at the Galician Research and Development Center in Advanced Telecommunications (Gradiant), leading multidisciplinary R&D activities in artificial intelligence, cybersecurity, privacy-enhancing technologies, and data analytics. In Summer 2026, I was selected as Research Fellow in the highly competitive [MATS Program](https://www.matsprogram.org/), where I am currently working on inference verification mechanisms to detect data exfiltration attacks. 
+
+
+Previously, I worked as Software Engineer at the Microsoft Canada Development Centre within the Core Data Engineering group, developing large-scale telemetry processing solutions for Windows and Azure cloud infrastructures. Earlier in my career, I also worked as research assistant at Universidad Carlos III de Madrid on biometric data-processing and privacy-related research projects. I additionally held a position as Associate Lecturer at the Department of Statistics and Operations Research at the Universidade de Vigo during 2023/2024 and 2025/2026 academic years.
 
 ## Research
 
