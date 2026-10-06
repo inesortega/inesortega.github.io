@@ -305,7 +305,10 @@ img {
 
 .about-content p {
     margin-bottom: 1rem;
-    text-align: left;
+    text-align: justify;
+    text-wrap: pretty;
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 .about-content ul,
